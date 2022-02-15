@@ -47,5 +47,9 @@ São ramificações / versões paralelas
  - DOD Definition of Done: critérios de aceite
  - versionamento 0.1.10
 
+
+
+
 ### Merge
 mescla de branches
+
