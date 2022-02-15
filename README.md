@@ -28,6 +28,10 @@ git clone git@github.com:Wencel15/curso-frontend.git
 ## Comits
 Informação de alteração
 - Após testado todo o seu código
+- git add *
+- git commit -m "mensagem
+- git push (para enviar alteraçõespara o repositório)
+
 
 ## GitFlow
 Fluxo do Git
