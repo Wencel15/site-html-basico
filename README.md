@@ -1,5 +1,7 @@
 # Curso-front-end
 
+#### EBAC
+
 # GIT
 ## Conceitos de versionamento
  - Histórico
@@ -36,3 +38,14 @@ Informação de alteração
 
 ## GitFlow
 Fluxo do Git
+
+### Branchs
+São ramificações / versões paralelas
+
+ - main / master ( vai para produção, quando o projeto é publicado)
+ - develop
+ - DOD Definition of Done: critérios de aceite
+ - versionamento 0.1.10
+
+### Merge
+mescla de branches
