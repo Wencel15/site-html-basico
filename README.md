@@ -47,9 +47,7 @@ São ramificações / versões paralelas
  - DOD Definition of Done: critérios de aceite
  - versionamento 0.1.10
 
-
-
-
-### Merge
-mescla de branches
-
+ git checkout -b dev (cria uma branch)
+ git checkout master (mudar de branch)
+ ### Merge
+ Mescla de branch
