@@ -51,3 +51,16 @@ São ramificações / versões paralelas
  git checkout master (mudar de branch)
  ### Merge
  Mescla de branch
+ Você pode precisar resolver conflitos manualmente
+
+ git merge main
+
+ ### Pull Request
+ Mescla de branchs no repositório
+ Permite code review
+ O  repositório resolve os conflitos automaticamente
+
+
+### Configura o GitFlow
+git flow init
+git flow feature star {nome-da-feature}
