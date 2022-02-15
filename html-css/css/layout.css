@@ -1,0 +1,214 @@
+
+
+
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+}
+body{
+    font-family: 'Metamorphous', cursive;
+}
+header {
+    background-color: black;
+    text-align: center;
+}
+section{
+    color: whitesmoke;
+    display: block;
+}
+main {
+    margin-bottom: auto;
+}
+footer {     
+    bottom: 0;
+    width: 100%;    
+    background: black;
+}        
+div{    
+    font-size: 18px;
+}
+label {
+    color: black;
+}
+h1 {
+    color: black;
+}
+h2 {
+    color: black;
+}
+h3 {
+    color: black;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+p {
+    color: black;
+    font-size: 16px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li {
+    font-size: 16px;
+    float: left;
+}
+li a { 
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #111;
+}
+form div {
+    margin-bottom: 20px;
+    background: lightgray;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+label {
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+input {
+    color: black;
+    padding: 10px;
+}
+[type="text"], [type="email"], textarea,label {
+    display: block;
+    width: 100%;
+}
+iframe {
+    filter: drop-shadow(10px 10px 3px black);
+}
+img {
+    padding: auto;
+}
+.active {
+    background-color: black;
+}
+
+.rodape {
+    display: flex;
+    
+}
+.site-conteudo {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;    
+}
+.site-planos {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 0px;
+    text-align: center;    
+}
+.site-tutorial {
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: block;
+}
+.tutorial {
+    padding: 30px;
+}
+.icon-redes {
+    width: 30px;
+}
+.icon-redes-sociais {
+    width: 40px;
+}
+.logo-rodape {
+    width: 100px;    
+}
+.coluna-esquerda{
+    padding: 40px; 
+    width: 33%;    
+}
+.coluna-centro{
+    padding: 40px;
+    width: 33%;      
+}
+.coluna-direita{
+    padding: 40px; 
+    width: 33%;    
+    text-align: center; 
+}
+.banner {
+    width: 100%;
+}
+.plano-basico {
+    filter: drop-shadow(10px 10px 3px black);
+}
+.plano-intermediario {
+    filter: drop-shadow(10px 10px 3px green);
+}
+.plano-premium {
+    filter: drop-shadow(10px 10px 3px red);
+}
+@media (max-width: 768px) {
+    nav {
+       width: 100vw;  
+    }
+
+    main {
+        width: 100vw;
+    }
+    .site-planos {
+        width: auto;
+    }
+    .coluna {
+        width: 50vw;
+        min-width: unset;
+    }
+    iframe {
+        width: 100%;
+    }
+}
+@media (max-width: 425px) {
+    nav {
+        width: 100vw;  
+     }
+ 
+     main {
+         width: 100vw;
+     }
+     .site-planos {
+         width: auto;
+     }
+     .rodape {
+        display: block;
+    }
+     .coluna-esquerda  {
+        padding: 30px;
+        width: auto;
+    }
+    .coluna-centro  {
+        padding: 30px;
+        width: auto;
+    }
+    .coluna-direita  {
+        padding: 30px;
+        width: auto;
+    }
+    iframe {
+        width: 100%;
+    }
+}
