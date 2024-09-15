@@ -1,66 +1,35 @@
-# Curso-front-end
+# Meeple Garage
 
-#### EBAC
+Este é um site para a Meeple Garage, uma plataforma dedicada a jogos de tabuleiro, onde você pode encontrar informações sobre planos, jogos e muito mais.
 
-# GIT
-## Conceitos de versionamento
- - Histórico
- - Controle de versão
- - Quem alterou
- - O quê alterou
- - Quando alterou
- - Todos os arquivos
- - Evolução contínua
- 
- Arquivo A  |  Versão 1  |  Versão 2
- Arquivo B  |  Versão 1  |  Versão 2
- 
- ## Instalação do GIT
- https://git-scm.com/
- 
- - Windows: https://git-scm.com/download/win
- - Linux: (apt-get): sudo apt-get install git
- - Mac: (brew): brew install git
+## Visão Geral
 
-## Criar conta no Github
-
-## Clonar o projeto
-git clone git@github.com:Wencel15/curso-frontend.git
-
-## Comits
-Informação de alteração
-- Após testado todo o seu código
-- git add *
-- git commit -m "mensagem
-- git push (para enviar alteraçõespara o repositório)
-- git pull (puxar / trazer alterações do GitHub para sua máquina)
+O site apresenta:
+- Um cabeçalho com o logo da Meeple Garage e uma barra de navegação.
+- Um banner principal e uma introdução ao conteúdo do site.
+- Informações sobre horários de atendimento e formas de contato no rodapé.
+- Links para redes sociais.
 
 
-## GitFlow
-Fluxo do Git
 
-### Branchs
-São ramificações / versões paralelas
+## Tecnologias Utilizadas
 
- - main / master ( vai para produção, quando o projeto é publicado)
- - develop
- - DOD Definition of Done: critérios de aceite
- - versionamento 0.1.10
+- HTML5
+- CSS3
+- Google Fonts para a fonte "Metamorphous"
 
- git checkout -b dev (cria uma branch)
- git checkout master (mudar de branch)
- ### Merge
- Mescla de branch
- Você pode precisar resolver conflitos manualmente
+## Como Usar
 
- git merge main
+1. Clone o repositório para o seu ambiente local.
+2. Certifique-se de que todos os arquivos estão no local correto:
+   - Os arquivos de estilo devem estar na pasta `css/`.
+   - As imagens devem estar na pasta `imagens/`.
+3. Abra o arquivo `index.html` em um navegador para visualizar o site.
 
- ### Pull Request
- Mescla de branchs no repositório
- Permite code review
- O  repositório resolve os conflitos automaticamente
+## Recursos
+
+- **Navegação**: A barra de navegação permite que os usuários acessem diferentes páginas, como "Home", "Planos", "Jogos", "Garagem Digital" e "Contato".
+- **Conteúdo Principal**: Inclui um banner e informações sobre a Meeple Garage.
+- **Contato e Redes Sociais**: O rodapé contém informações de contato, horário de atendimento e ícones para redes sociais.
 
 
-### Configura o GitFlow
-git flow init
-git flow feature star {nome-da-feature}
